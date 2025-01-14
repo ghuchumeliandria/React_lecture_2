@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Big+Shoulders+Display:wght@100..900&family=Bungee+Spice&family=Coda:wght@400;800&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: var(--very-dark-blue-main-bg, #0d192c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.card {
+  max-width: 350px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 15px;
+  background: var(--very-dark-blue-card-bg, #15263f);
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card_image {
+  width: 100%;
+}
+.heading {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card_d {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.version {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.version_p {
+  color: var(--Cyan, #00fff8);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 600;
+}
+.days_p {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+}
+.version p {
+  display: flex;
+  align-items: center;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background: var(--very-dark-blue-line, #2E405A);
+}
+.footer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 11px;
+}
+.footer p  ,.footer p span {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.footer p {
+  color: white;
+}
