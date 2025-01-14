@@ -2,7 +2,7 @@ import './App.css'
 import logo from './assets/images/cube.png'
 import icon from './assets/images/icon.png'
 import profile from './assets/images/profile.png'
-import clock from './assets/images/clock.png'
+import clock from './assets/images/Clock.png'
 function App() {
   const element = <h1 className='heading'>Equilibrium #3429</h1>
   const paragraph = <p className='card_d'>Our Equilibrium collection promotes balance and calm.</p>
